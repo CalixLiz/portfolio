@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+* {
+	box-sizing: border-box;
+}
+
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+
+/*Title*/
+#title-title {
+	margin-top: 9em;
+	height: 300px;
+	border: 1px solid grey; 
+	padding: 6em 6em;
+	font-family: 'Roboto+Condensed', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+
+
+/*About*/
+#about-abut {
+	height: 600px;
+	border: 1px solid grey;
+	padding: 9em 3em;
+}
+
+
+/*Skills*/
+
+#skills-skills {
+	height: 600px;
+	border: 1px solid grey;
+	padding: 4em 3em;
+
+}
+
+#skills-skills p {
+	text-align: center;
+} 
+
+#skills-skills img {
+	margin-top: 1em;
+	width: 90px;
+	height: 130px;
+}
+
+.caption {
+	margin-top: 2em;
+}
+
+.caption:before {
+	content: ' ';
+	position: absolute;
+	width: 196px;
+	height: .6px;
+	left: 19%;
+	background-color: #C4C5C5;
+
+
+}
+
+/*Projects*/
+#projects-projects {
+	height: 600px;
+	border: 1px solid grey;
+	padding: 9em 6em;
+}
+
+img#project{
+	width: 500px;
+	height: 300px;
+	text-align: center;
+}
+
+.projects{
+	margin-top: 6em;
+}
+
+
+.col {
+	text-align: right;
+	padding: 0 1em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+
+/*Contact*/
+#contact-contact {
+	height: 300px;
+	border: 1px solid grey;
+	padding: 9em 3em;
+}
+
+.social-network {
+	display: inline;
+	list-style: none;
+	padding: 0;
+}
+
+.social-network li{
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-icon {
+	width: 37px;
+	height: 37px;
+}
+
+.social-icon:hover {
+	opacity: 0.5;
+}
+
+
+
+
+/*Leave a note*/
+#note-note {
+	height: 400px;
+	border: 1px solid grey;
+	padding: 3em 26em;
+}
+
+.leave-note {
+	padding: 0 10px;
+	margin-left: 100px;
+	width: 700px;
+}
+
+.label-name, .label-email, .label-message {
+	text-align: left;
+	font-family: 'Roboto+Condensed', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	color: tomato;
+}
+
+
+input[type="text"], input[type="email"] {
+	width: 300px;
+}
+
+#message {
+	width: 560px;
+	height: 100px;
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
