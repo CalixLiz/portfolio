@@ -27,10 +27,17 @@ img {
 
 /*About*/
 #about-abut {
-	height: 600px;
+	height: 300px;
 	border: 1px solid grey;
-	padding: 9em 3em;
+	padding: 9em 3em; 
 }
+
+.about01 {
+	font-family: 'Titillium+Web', Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #4D4D4C;
+}
+
 
 
 /*Skills*/
@@ -69,14 +76,14 @@ img {
 
 /*Projects*/
 #projects-projects {
-	height: 600px;
+	height: 800px;
 	border: 1px solid grey;
 	padding: 9em 6em;
 }
 
 img#project{
-	width: 500px;
-	height: 300px;
+	width: 400px;
+	height: 200px;
 	text-align: center;
 }
 
@@ -92,6 +99,9 @@ img#project{
 	margin-bottom: 0.5em;
 }
 
+.col-md-8 {
+	padding: 3em 0;
+}
 
 /*Contact*/
 #contact-contact {
@@ -153,7 +163,6 @@ input[type="text"], input[type="email"] {
 	height: 100px;
 	border: 1px solid #ccc;
 }
-
 
 
 
